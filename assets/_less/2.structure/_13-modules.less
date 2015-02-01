@@ -1,0 +1,105 @@
+/* ----------------------------------------------------------- */
+/* == modules */
+/* ----------------------------------------------------------- */
+
+.home-cover {
+  padding: 40px 0 50px 0;
+  background: url('/assets/img/geometry.png') repeat;
+  text-align: center;
+}
+
+.home-cover__text {
+  margin: 0 auto 30px auto;
+  max-width: 450px;
+}
+
+.home-cover__title {
+  .em(35);
+}
+
+.home-cover__img {
+  margin-bottom: 20px;
+}
+
+/* home prestations
+-------------------------------------------------------------- */
+
+.home-prestations {
+  padding: 30px 0 0 0;
+  background-color: @color-primary;
+  color: #fff;
+  text-align: center;
+}
+
+.home-prestations__tagline {
+  margin-bottom: 50px;
+}
+
+.home-prestations__icon {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 180px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  line-height: 180px;
+}
+
+.home-prestations__icon--red {
+  border: 2px dotted @color-primary;
+}
+
+.home-prestations__title {
+  font-family: @fontstack1;
+  .em(20);
+}
+
+/* home prestations 2
+-------------------------------------------------------------- */
+
+.home-prestations2 {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* home presentation
+-------------------------------------------------------------- */
+
+.home-presentation {
+  padding: 50px 0;
+  background-color: #f1f1f1;
+}
+
+.home-presentation__photo {
+  float: left;
+  margin-right: 40px;
+}
+
+/* ----------------------------------------------------------- */
+/* == prestations */
+/* ----------------------------------------------------------- */
+
+.prestations a {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: 1px solid @color-secondary;
+  border-radius: 4px;
+  color: @color-dark-text;
+}
+
+.prestations a:hover {
+  border-color: @color-primary;
+  color: @color-primary;
+}
+
+.prestations a:hover .fa {
+  transform: scale(1.1);
+}
+
+.prestations .fa {
+  .em(24);
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: transform .2s ease-in-out;
+}

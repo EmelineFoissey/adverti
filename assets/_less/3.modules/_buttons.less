@@ -38,14 +38,16 @@ input[type="submit"] {
   width: inherit;
   border: none;
   border-radius: @btn-radius;
-  background-color: @btn-primary;
+  background-color: none;
   box-shadow: none;
   vertical-align: baseline;
   text-align: center;
-  text-decoration: none !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
   line-height: normal;
+  .em(17);
   cursor: pointer;
-  .setColor(@btn-primary);
   transition: background-color .4s;
 }
 
@@ -54,13 +56,13 @@ input[type="submit"] {
 -------------------------------------------------------------- */
 
 .btn--primary {
-  background-color: @btn-primary;
-
-  .setColor(@btn-primary);
+  border: 2px solid @btn-primary;
+  color: @color-primary
 }
 
 .btn--primary:hover {
   background-color: darken(@btn-primary, @btn-hover);
+  color: #fff;
 }
 
 .btn--secondary {

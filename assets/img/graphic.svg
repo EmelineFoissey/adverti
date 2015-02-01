@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="127px" height="127px" viewBox="0 0 127 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-657.000000, -124.000000)">
+            <g id="Accroche" sketch:type="MSLayerGroup" transform="translate(387.000000, 115.000000)">
+                <g id="graphic" transform="translate(261.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M113.611915,26.7602282 C102.71811,16.9622176 88.3053302,11 72.5,11 C38.5344879,11 11,38.5344879 11,72.5 C11,106.465512 38.5344879,134 72.5,134 C106.465512,134 134,106.465512 134,72.5 C134,65.6461657 132.878839,59.0541925 130.809914,52.8974768 C129.914024,50.2314831 128.84042,47.6471037 127.603182,45.1584175" id="Oval-1" stroke="#D52F39" stroke-width="4" transform="translate(72.500000, 72.500000) rotate(11.000000) translate(-72.500000, -72.500000) "></path>
+                    <path d="M29,108 L40,106 L48,88 L72.5,88 L92,72 L109,69 L123,49" id="Path-7" stroke="#232A34" stroke-width="3"></path>
+                    <polygon id="Triangle-1" fill="#4A4A4A" transform="translate(127.009259, 43.491039) rotate(40.000000) translate(-127.009259, -43.491039) " points="127.009259 36.491039 134.009259 50.491039 120.009259 50.491039 "></polygon>
+                    <circle id="Oval-2" stroke="#D52F39" stroke-width="2" fill="#FFFFFF" cx="48" cy="89" r="4"></circle>
+                    <circle id="Oval-3" stroke="#D52F39" stroke-width="2" fill="#FFFFFF" cx="72" cy="87" r="4"></circle>
+                    <circle id="Oval-4" stroke="#D52F39" stroke-width="2" fill="#FFFFFF" cx="92" cy="72" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

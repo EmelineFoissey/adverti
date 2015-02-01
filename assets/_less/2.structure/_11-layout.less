@@ -1,0 +1,101 @@
+/* ----------------------------------------------------------- */
+/* == layout */
+/* ----------------------------------------------------------- */
+
+body {
+  background-color: @bg-color;
+  color: @color-dark-text;
+  font-family: @fontstack1;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+  max-width: 960px;
+}
+
+/* header
+-------------------------------------------------------------- */
+
+.header {
+  background-color: @color-primary;
+  padding: 10px 0;
+}
+
+/* navigation
+-------------------------------------------------------------- */
+
+.navigation {
+  text-align: right;
+  color: @color-light-text;
+}
+
+.navigation ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: block;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li a:visited {
+  padding: 5px 25px;
+  color: #fff;
+  display: inline-block;
+}
+
+.navigation .current a {
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+
+/* content
+-------------------------------------------------------------- */
+
+.content-bg {
+  background-color: #f8f8f8;
+}
+
+.content {
+  padding: 50px 0;
+}
+
+
+/* footer
+-------------------------------------------------------------- */
+
+.footer {
+  background-color: @color-secondary;
+  padding: 30px 0;
+  color: @color-light-text;
+}
+
+.footer ul {
+  padding-left: 20px;
+}
+
+.footer .grid-3 > div {
+  padding: 0 40px;
+}
+
+.socials a {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  display: block;
+  margin: 10px 0;
+  padding: 5px 0 5px 20%;
+}
+
+.socials .fa {
+  .em(25);
+  vertical-align: middle;
+  width: 2em;
+  text-align: center;
+}

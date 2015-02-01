@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <title>Adverti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Oswald' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" role="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col w30">
+                <a href="{{ site.baseurl }}/">
+                    <img src="{{ site.baseurl }}/assets/img/logo.svg">
+                </a>
+            </div>
+            <div class="col w70">
+                <nav class="navigation" role="navigation">
+                    <ul>
+                        <li {% if page.url == '/index.html' %} class="current"{% endif %}><a href="{{ site.baseurl }}/">Accueil</a></li>
+                        <li {% if page.url == '/prestations.html' %} class="current"{% endif %}><a href="{{ site.baseurl }}/prestations.html">Prestations</a></li>
+                        <li {% if page.url == '/a-propos.html' %} class="current"{% endif %}><a href="{{ site.baseurl }}/a-propos.html">A propos</a></li>
+                        <li {% if page.url == '/contact.html' %} class="current"{% endif %}><a href="{{ site.baseurl }}/contact.html">Contactez-moi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+{{content }}
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <div class="grid-3">
+            <div>
+                <h4 tx>Un besoin ? Contactez-moi :</h4>
+                <ul>
+                    <li><i class="fa fa-envelope-o fa-fw  vmiddle"></i> emeline@adverti.com</li>
+                    <li><i class="fa fa-mobile-phone fa-fw  vmiddle"></i>07 83 13 55 49</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Suivez Adverti</h4>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fa fa-google-plus"></i> Google+</a>
+                </div>
+            </div>
+
+            <div>
+                <h4>Les prestations</h4>
+                <ul>
+                    <li>Formations</li>
+                    <li>Marketing Web</li>
+                    <li>Publicité AdWords</li>
+                    <li>Création de site vitrinne</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXXX-X', 'XXXXXXXXXXX.TLD');
+    ga('send', 'pageview');
+
+
+</script>
+</body>
+</html>
